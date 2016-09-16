@@ -39,5 +39,9 @@
   "Booking": {
     "dataSource": "db",
     "public": true
+  },
+  "Person": {
+    "dataSource": "db",
+    "public": true
   }
 }

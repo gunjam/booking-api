@@ -16,7 +16,9 @@
       "required": true
     },
     "features": {
-      "type": ["string"]
+      "type": [
+        "string"
+      ]
     }
   },
   "validations": [],
