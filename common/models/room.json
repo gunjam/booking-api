@@ -19,7 +19,7 @@
   "validations": [],
   "relations": {
     "features": {
-      "type": "hasMany",
+      "type": "hasAndBelongsToMany",
       "model": "Feature",
       "foreignKey": ""
     },
