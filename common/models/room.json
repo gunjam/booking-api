@@ -14,15 +14,15 @@
     "capacity": {
       "type": "number",
       "required": true
-    },
-    "features": {
-      "type": [
-        "string"
-      ]
     }
   },
   "validations": [],
   "relations": {
+    "features": {
+      "type": "hasMany",
+      "model": "Feature",
+      "foreignKey": ""
+    },
     "bookings": {
       "type": "hasMany",
       "model": "Booking",

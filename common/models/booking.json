@@ -7,11 +7,11 @@
     "validateUpsert": true
   },
   "properties": {
-    "startTime": {
+    "start": {
       "type": "date",
       "required": true
     },
-    "endTime": {
+    "end": {
       "type": "date",
       "required": true
     },

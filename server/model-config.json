@@ -40,7 +40,7 @@
     "dataSource": "db",
     "public": true
   },
-  "Person": {
+  "Feature": {
     "dataSource": "db",
     "public": true
   }

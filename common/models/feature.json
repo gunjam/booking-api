@@ -1,21 +1,15 @@
 {
-  "name": "Person",
-  "plural": "People",
+  "name": "Feature",
+  "plural": "Features",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "fullName": {
+    "description": {
       "type": "string",
       "required": true
-    },
-    "email": {
-      "type": "string"
-    },
-    "telephone": {
-      "type": "string"
     }
   },
   "validations": [],
