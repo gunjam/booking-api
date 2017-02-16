@@ -1,7 +1,5 @@
 'use strict';
 
-// {start: {between: [start, end]}},
-
 module.exports = function(Booking) {
   Booking.validateAsync('doubleBooking', checkBookings, {
     message: 'Can\'t book this, it would be a double booking'
