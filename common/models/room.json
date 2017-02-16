@@ -3,6 +3,7 @@
   "plural": "Rooms",
   "base": "PersistedModel",
   "idInjection": true,
+  "strict": true,
   "options": {
     "validateUpsert": true
   },

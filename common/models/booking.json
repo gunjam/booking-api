@@ -3,6 +3,7 @@
   "plural": "Bookings",
   "base": "PersistedModel",
   "idInjection": true,
+  "strict": true,
   "options": {
     "validateUpsert": true
   },
@@ -16,6 +17,10 @@
       "required": true
     },
     "description": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
       "type": "string",
       "required": true
     }
