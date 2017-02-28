@@ -1,0 +1,25 @@
+{
+  "name": "Location",
+  "plural": "Locations",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "strict": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "rooms": {
+      "type": "hasMany",
+      "model": "Rooms",
+      "foreignKey": ""
+    },
+  "acls": [],
+  "methods": {}
+}

@@ -36,6 +36,11 @@
       "type": "hasMany",
       "model": "Booking",
       "foreignKey": ""
+    },
+    "location": {
+      "type": "belongsTo",
+      "model": "Location",
+      "foreignKey": ""
     }
   },
   "acls": [],
