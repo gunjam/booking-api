@@ -19,7 +19,8 @@
       "type": "hasMany",
       "model": "Rooms",
       "foreignKey": ""
-    },
+    }
+  },
   "acls": [],
   "methods": {}
 }
