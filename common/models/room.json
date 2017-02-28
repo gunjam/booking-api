@@ -15,6 +15,10 @@
     "capacity": {
       "type": "number",
       "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],
