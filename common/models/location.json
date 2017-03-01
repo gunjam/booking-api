@@ -17,7 +17,7 @@
   "relations": {
     "rooms": {
       "type": "hasMany",
-      "model": "Rooms",
+      "model": "Room",
       "foreignKey": ""
     }
   },
