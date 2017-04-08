@@ -14,9 +14,9 @@ module.exports = function(Booking) {
           {roomId},
           id ? {id: {neq: id}} : {},
           {or: [
-            {and: [{start: {lte: start}}, {end: {gt: start}}]},
-            {and: [{start: {lt: end}}, {end: {gte: end}}]},
-            {and: [{start: start, end: end}]}
+            {and: [{start: {lt: start}}, {end: {gt: start}}]},
+            {and: [{start: {lt: end}}, {end: {gt: end}}]},
+            {and: [{start: {gte: start}, end: {lte: end}}]}
           ]}
         ]
       }
