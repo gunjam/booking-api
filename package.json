@@ -15,8 +15,11 @@
     "loopback-boot": "^2.6.5",
     "loopback-component-explorer": "^4.0.0",
     "loopback-connector-mongodb": "^3.0.1",
+    "npm": "^6.8.0",
     "serve-favicon": "^2.0.1",
-    "strong-error-handler": "^1.0.1"
+    "strong-error-handler": "^1.0.1",
+    "to": "^0.2.9",
+    "update": "^0.7.4"
   },
   "devDependencies": {
     "eslint": "^2.13.1",

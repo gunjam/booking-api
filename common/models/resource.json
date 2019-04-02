@@ -1,6 +1,6 @@
 {
-  "name": "Room",
-  "plural": "Rooms",
+  "name": "Resource",
+  "plural": "Resources",
   "base": "PersistedModel",
   "idInjection": true,
   "strict": true,

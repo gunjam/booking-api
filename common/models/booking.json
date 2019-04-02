@@ -27,9 +27,9 @@
   },
   "validations": [],
   "relations": {
-    "room": {
+    "resource": {
       "type": "belongsTo",
-      "model": "Room",
+      "model": "Resource",
       "foreignKey": ""
     }
   },

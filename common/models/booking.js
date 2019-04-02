@@ -6,12 +6,12 @@ module.exports = function(Booking) {
   });
 
   function checkBookings(err, done) {
-    const {start, end, roomId, id} = this;
+    const {start, end, resourceId, id} = this;
 
     Booking.find({
       where: {
         and: [
-          {roomId},
+          {resourceId},
           id ? {id: {neq: id}} : {},
           {or: [
             {and: [{start: {lt: start}}, {end: {gt: start}}]},
